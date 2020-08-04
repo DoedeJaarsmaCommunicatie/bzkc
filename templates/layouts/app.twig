@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+<head>
+    {% block head %}{% endblock %}
+    {{ fn('wp_head') }}
+</head>
+<body {{ fn('body_class') }}>
+{% block header %}{% endblock %}
+
+{% block content %}{{ post.content }}{% endblock %}
+
+{% block footer %}{% endblock footer %}
+
+{{ fn('wp_footer') }}
+</body>
+</html>

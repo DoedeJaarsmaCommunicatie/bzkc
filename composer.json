@@ -1,0 +1,35 @@
+{
+  "require": {
+    "php": ">=7.3 <=8",
+    "aristath/kirki": "^3.1",
+    "dusank/knapsack": "^10.0",
+    "htmlburger/carbon-fields": "^3.1",
+    "jjgrainger/posttypes": "^2.0",
+    "laravel/helpers": "^1.2",
+    "monolog/monolog": "^2.0",
+    "nesbot/carbon": "^2.34",
+    "php-di/php-di": "^6.1",
+    "symfony/http-foundation": "^5.0",
+    "timber/timber": "^1.16",
+    "vlucas/phpdotenv": "^4.1",
+    "yahnis-elsts/plugin-update-checker": "^4.9"
+  },
+  "require-dev": {
+    "johnpbloch/wordpress-core": "^5.4",
+    "roave/security-advisories": "dev-master",
+    "vimeo/psalm": "^3.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    },
+    "files": [
+      "vendor/aristath/kirki/kirki.php",
+      "src/app.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

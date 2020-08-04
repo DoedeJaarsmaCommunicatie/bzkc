@@ -1,0 +1,15 @@
+node_modules/
+assets/
+.yarn/
+.eslintrc.js
+.babelrc
+.gitignore
+.prettierrc.js
+.yarnrc.yml
+composer.json
+composer.lock
+package.json
+tailwind.config.js
+uwire.config.json
+webpack.mix.js
+yarn.lock
